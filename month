@@ -1,0 +1,30 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace HelloWorld
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Введите номер текущего месяца");
+        string a = Convert.ToString(Console.ReadLine());
+        switch (a)
+        {
+                case "1":Console.WriteLine("Сейчас Январь");break;
+                case "2":Console.WriteLine("Сейчас Февраль");break;
+                case "3":Console.WriteLine("Сейчас Март");break;
+                case "4":Console.WriteLine("Сейчас Апрель");break;
+                case "5":Console.WriteLine("Сейчас Май");break;
+                case "6":Console.WriteLine("Сейчас Июнь");break;
+                case "7":Console.WriteLine("Сейчас Июль");break;
+                case "8":Console.WriteLine("Сейчас Август");break;
+                case "9":Console.WriteLine("Сейчас Сентябрь");break;
+                case "10":Console.WriteLine("Сейчас Октябрь");break;
+                case "11":Console.WriteLine("Сейчас Ноябрь");break;
+                case "12":Console.WriteLine("Сейчас Декабрь");break;
+        }
+    }
+}
